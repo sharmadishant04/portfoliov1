@@ -1,0 +1,140 @@
+{
+    "name": "Dishant Sharma",
+    "logo_name": "dishant-sharma",
+    "role": "Python Developer Intern",
+    "about": {
+        "sections": {
+            "professional-info": {
+                "title": "professional-info",
+                "icon": "icons/info-professional.svg",
+                "info": {
+                    "experience": {
+                        "title": "experience",
+                        "description": "<br>Currently working as a Python Developer Intern at Quantum, where I develop applications for Quantum NFTs (QNFT) and QMeet, leveraging blockchain and quantum-safe cryptographic protocols to secure digital assets and user-secure interactions over WebSocket protocols. <br><br>Previously worked as a Machine Learning Intern at Feynn Labs, where I contributed to architecting and validating quick-deploy solutions and optimized customer segmentation processes through machine learning models."
+                    },
+                    "hard-skills": {
+                        "title": "hard-skills",
+                        "description": "<br>Programming Languages: Python, Java, C++, SQL, JavaScript, HTML/CSS, jQuery, C#, Solidity<br>Technologies/Frameworks: Flask, Django, React, FastAPI, Node.js, MongoDB, Express.js, Bootstrap, CI/CD, Agile, Scrum, DevOps, Redis (AWS), TensorFlow, PyTorch, Docker, Ethereum, NLTK, BERT<br><br>Expertise in backend development, AI/ML, and blockchain technology with a strong foundation in quantum-based solutions."
+                    },
+                    "soft-skills": {
+                        "title": "soft-skills",
+                        "description": "<br>Dedicated and results-driven professional with strong problem-solving abilities and analytical skills. Experienced in team collaboration, project management, and delivering efficient solutions. <br><br>Proven track record of optimizing performance and implementing innovative solutions across various technology stacks."
+                    }
+                }
+            },
+            "personal-info": {
+                "title": "personal-info",
+                "icon": "icons/info-personal.svg",
+                "info": { 
+                    "bio": {
+                        "title": "bio",
+                        "description": "<br>Dedicated and results-driven B.Tech student with expertise in Python, backend development, and AI/ML. Currently enhancing blockchain and quantum-based solutions as a Python Developer Intern at Quranium."
+                    },
+                    "education": {
+                        "title": "education",
+                        "description": "<br>Bachelor of Technology in Information Technology<br>Vellore Institute of Technology, Vellore, India (2021-2025)<br>CGPA: 8.21/10<br><br>State Board Percentage: 86%<br>FIITJEE Junior College, Hyderabad, India"
+                    }
+                }
+            },
+            "hobbies-info": {
+                "title": "hobbies-info",
+                "icon": "icons/info-hobbies.svg",
+                "info": {
+                    "sports": {
+                        "title": "sports",
+                        "description": "<br>I am a passionate sports enthusiast with a deep love for cricket and football. I played district-level cricket and was also the captain of my school cricket team. Additionally, as the house captain, I led my team to six trophies in a single year. My leadership and teamwork on the field have helped me develop strategic thinking and resilience."
+                    },
+                    "favorite-games": {
+                        "title": "favorite-games",
+                        "description": "<br>I enjoy playing online games, especially Ghost of Tsushima, FIFA 25, and BGMI. Gaming allows me to explore immersive worlds, improve reflexes, and develop strategic decision-making skills. Whether it's sports on the field or virtual battles, I thrive on competition and continuous learning."
+                    }
+                }
+            }
+        }
+    },
+    "contacts": {
+        "direct": {
+            "title": "contacts",
+            "sources": {
+                "email": {
+                    "title": "Email",
+                    "value": "sharmadishant04@gmail.com"
+                },
+                "phone": {
+                    "title": "Phone",
+                    "value": "+91 9741734271"
+                }
+            }
+        },
+        "social": {
+            "github": {
+                "title": "Github profile",
+                "url": "https://github.com/",
+                "user": "sharmadishant04"
+            },
+            "linkedin": {
+                "title": "LinkedIn profile",
+                "url": "https://www.linkedin.com/in/",
+                "user": "dishant-sharma-12a1bb246"
+            },
+            "leetcode": {
+                "title": "LeetCode profile",
+                "url": "https://leetcode.com/",
+                "user": "sharmadishant04"
+            }
+        },
+        "find_me_also_in": {
+            "title": "find-me-also-in",
+            "sources": {
+                "youtube": {
+                    "title": "YouTube channel",
+                    "url": "https://www.youtube.com/",
+                    "user": "sharmadishant04"
+                },
+                "instagram": {
+                    "title": "Instagram account",
+                    "url": "https://instagram.com/",
+                    "user": "sharmadishant04"
+                }
+            }
+        }
+    },
+    "projects": {
+        "1": {
+            "title": "Decentralized Real Estate Platform",
+            "description": "Developed a decentralized real estate platform using blockchain technology for secure, transparent property transactions. Integrated ReactJs, HTML, and CSS for frontend, Node.js with Express for backend.",
+            "tech": ["Blockchain", "React", "Node.js", "Express", "Web3"],
+            "url": "https://github.com/sharmadishant04/LandLedger"
+        },
+        "2": {
+            "title": "Voice-Controlled Website",
+            "description": "Developed a voice-controlled website using JavaScript and Web Speech API to enhance web accessibility, enabling hands-free navigation for visually impaired users.",
+            "tech": ["JavaScript", "Web Speech API", "HTML", "CSS"],
+            "url": "https://github.com/sharmadishant04/voice-operated-website"
+        },
+        "3": {
+            "title": "Stock Prediction with LSTM",
+            "description": "Developed an LSTM network to forecast stock prices for HDFC, ICICI, and KOTAK BANK using 3 years of historical data to improve forecast accuracy by 60%.",
+            "tech": ["Python", "LSTM", "Machine Learning", "Data Analysis"],
+            "url": "https://github.com/sharmadishant04/Stock_Prediction"
+        },
+        "4": {
+            "title": "LLM Chat Application",
+            "description": "Built an advanced chat application powered by Large Language Models, enabling natural language interactions and intelligent responses for users.",
+            "tech": ["Python", "LLM", "Machine Learning", "NLP"],
+            "url": "https://github.com/sharmadishant04/LLM-Chat-App"
+        },
+        "5": {
+            "title": "Personal Trainer API",
+            "description": "Developed a comprehensive API for personal trainers to manage client workouts, track progress, and provide personalized fitness recommendations.",
+            "tech": ["Python", "REST API", "Database", "Backend Development"],
+            "url": "https://github.com/sharmadishant04/Personal_Trainer_API"
+        },
+        "6": {
+            "title": "News Summarizer",
+            "description": "Created an automated news summarization tool that condenses lengthy news articles into concise, informative summaries using NLP techniques.",
+            "tech": ["Python", "NLP", "Machine Learning", "Text Processing"],
+            "url": "https://github.com/sharmadishant04/News_Summarizer"
+        }
+    }
+}
