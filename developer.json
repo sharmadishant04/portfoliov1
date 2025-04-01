@@ -1,7 +1,7 @@
 {
     "name": "Dishant Sharma",
     "logo_name": "dishant-sharma",
-    "role": "Python Developer Intern",
+    "role": "Final Year Student",
     "about": {
         "sections": {
             "professional-info": {
@@ -63,6 +63,12 @@
                 "phone": {
                     "title": "Phone",
                     "value": "+91 9741734271"
+                },
+                "resume": {
+                    "title": "Resume",
+                    "value": "https://drive.google.com/file/d/1sNwmNaHCTMwx_dMX5yJXx2AjwhAlQYEd/view?usp=drive_link",
+                    "icon": "icons/resume.svg",
+                    "target": "_blank"
                 }
             }
         },

@@ -48,7 +48,23 @@
         <div id="contact-sources" class="hidden lg:flex lg:flex-col my-2">
           <div v-for="(source, key) in config.contacts.direct.sources" :key="key" class="flex items-center mb-2">
             <img :src="'/icons/' + key + '.svg'" alt="" class="mx-4">
-            <a v-html="source.value" href="/" class="font-fira_retina text-menu-text hover:text-white truncate"></a>
+            <a v-if="key === 'resume'" 
+               :href="source.value"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="font-fira_retina text-menu-text hover:text-white truncate">
+               {{ source.title }}
+            </a>
+            <a v-else-if="key === 'email'" 
+               :href="'mailto:' + source.value" 
+               class="font-fira_retina text-menu-text hover:text-white truncate">
+               {{ source.value }}
+            </a>
+            <a v-else-if="key === 'phone'" 
+               :href="'tel:' + source.value" 
+               class="font-fira_retina text-menu-text hover:text-white truncate">
+               {{ source.value }}
+            </a>
           </div>
         </div>
 
@@ -95,7 +111,23 @@
         <div id="contacts" class="hidden">
           <div v-for="(source, key) in config.contacts.direct.sources" :key="key" class="flex items-center my-2">
             <img :src="'/icons/' + key + '.svg'" alt="">
-            <a v-html="source.value" href="/" class="font-fira_retina text-menu-text hover:text-white ml-4 truncate"></a>
+            <a v-if="key === 'resume'" 
+               :href="source.value"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="font-fira_retina text-menu-text hover:text-white ml-4 truncate">
+               {{ source.title }}
+            </a>
+            <a v-else-if="key === 'email'" 
+               :href="'mailto:' + source.value" 
+               class="font-fira_retina text-menu-text hover:text-white ml-4 truncate">
+               {{ source.value }}
+            </a>
+            <a v-else-if="key === 'phone'" 
+               :href="'tel:' + source.value" 
+               class="font-fira_retina text-menu-text hover:text-white ml-4 truncate">
+               {{ source.value }}
+            </a>
           </div>
         </div>
 

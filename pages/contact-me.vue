@@ -18,7 +18,23 @@
                 <div id="links">
                     <div v-for="(source, key) in contact.direct.sources" :key="key" class="link">
                         <img :src="'/icons/' + key + '.svg'" alt="">
-                        <a v-html="source.value" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+                        <a v-if="key === 'resume'" 
+                           :href="source.value"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="font-fira_retina text-menu-text hover:text-white">
+                           {{ source.title }}
+                        </a>
+                        <a v-else-if="key === 'email'" 
+                           :href="'mailto:' + source.value" 
+                           class="font-fira_retina text-menu-text hover:text-white">
+                           {{ source.value }}
+                        </a>
+                        <a v-else-if="key === 'phone'" 
+                           :href="'tel:' + source.value" 
+                           class="font-fira_retina text-menu-text hover:text-white">
+                           {{ source.value }}
+                        </a>
                     </div>
                 </div>
             </div>
@@ -107,6 +123,9 @@ export default {
                 links.style.display = 'block';
                 arrow.style.transform = 'rotate(90deg)';
             }
+        },
+        openResume(url) {
+            window.open(url, '_blank');
         }
     },
     mounted(){
